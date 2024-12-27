@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* body{
+    overflow-x: hidden;
+} */
+.logo{
+    width: 7%;
+    height: 7%;
+}
+.imgEdit{
+    object-fit: cover;
+    /* background-color: aqua !important; */
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+}
+.admin-image{
+    width: 100px;
+    object-fit: contain;
+    padding-left: 1%;
+}
+.box{    padding-left: 350px !important;    }
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.back_btn_product{
+    top: 3% ;
+    left: 3%;
+}
+.up{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0e4e9;
+}
+.update{
+    width: 40%;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2%;
+    text-align: center;
+}
+.update h2{
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #42b3e5;
+}
+.input-container i{
+    color: #42b3e5;
+    font-size: 24px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 6px;
+}
+input[type="number"]{
+    width: 80%;
+    padding: 10px;
+    margin-top: 40px;
+    outline: none;
+}
+.input-field:focus, select:focus {border: 2px solid dodgerblue;}
+.boxBtn{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.btnUp {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    margin-top: 20px;
+    opacity: 0.9;
+    text-decoration: none;
+}
+.btnUp:hover{    opacity: .7;    }
